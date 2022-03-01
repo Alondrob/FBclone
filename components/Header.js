@@ -78,8 +78,8 @@ const {data: session, status} = useSession();
            
               {/* <img src={}></img> */}
            
-            <p onClick={signOut}>Logout</p>
-            <p className="whitespace-nowrap">Felix Piski</p>
+            
+            <p className="whitespace-nowrap">{session.user.name}</p>
             <ViewGridIcon className="icon"/>
             <ChatIcon className="icon"/>
             <BellIcon className='icon'/>
