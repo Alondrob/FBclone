@@ -1,6 +1,8 @@
 import { useSession } from "next-auth/react"
 import Image from "next/image"
 import { CameraIcon, EmojiHappyIcon, VideoCameraIcon } from "@heroicons/react/solid";
+import firebase from 'firebase/compat/app';
+import firestore from 'firebase/compat/firestore'
 import {useRef} from 'react'
 import {db, storage} from '../fireBase';
 
